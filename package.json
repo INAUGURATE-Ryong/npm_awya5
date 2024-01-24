@@ -12,6 +12,6 @@
   "author": "awya5",
   "license": "ISC",
   "bin": {
-    "pysatellite": "./index.js"
+    "awya5": "./index.js"
   }
 }
