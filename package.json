@@ -1,0 +1,14 @@
+{
+  "name": "awya5",
+  "version": "1.0.0",
+  "description": "awya5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "awya5"
+  ],
+  "author": "awya5",
+  "license": "ISC"
+}
