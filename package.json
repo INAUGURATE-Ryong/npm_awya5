@@ -1,6 +1,6 @@
 {
   "name": "awya5",
-  "version": "1.0.0",
+  "version": "0.5.0",
   "description": "awya5",
   "main": "index.js",
   "scripts": {
@@ -10,5 +10,8 @@
     "awya5"
   ],
   "author": "awya5",
-  "license": "ISC"
+  "license": "ISC",
+  "bin": {
+    "pysatellite": "./index.js"
+  }
 }
