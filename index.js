@@ -43,3 +43,7 @@ console.log(`
 ..................*@#%-:++...-.:#%@@=-----::...................
 ...............................................................
 	`);
+
+const prlist  = process.argv.slice(2);
+const n =Math.floor(Math.random()*prlist.length);
+console.log(`발표자 : ${prlist[n]}`);
