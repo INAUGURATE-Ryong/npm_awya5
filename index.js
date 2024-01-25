@@ -44,6 +44,28 @@ console.log(`
 ...............................................................
 	`);
 
-const prlist  = process.argv.slice(2);
-const n =Math.floor(Math.random()*prlist.length);
-console.log(`발표자 : ${prlist[n]}`);
+class Random{
+    constructor(){
+        this.argv = argv;
+        this.length = argv.length;
+    }
+};
+
+class RandomPR extends Random{
+    constructor(){
+        super();
+    }
+    print(){
+        const list = this.argv.slice(2);
+        if (list.length === 0){
+            console.log('발표자가 비워있습니다.')
+        }else{
+            const n = Math.floor(Math.random() * list.length)
+            console.log(`발표자 : ${list[n]}`)
+        };
+    };
+};
+1
+const argv = process.argv;
+const List = new RandomPR(argv);
+List.print();
