@@ -43,7 +43,7 @@
 
 ### use
 ```
-$ npm insatall -g awya5
+$ npm install -g awya5
 $ awya5
 hello awya5
 
