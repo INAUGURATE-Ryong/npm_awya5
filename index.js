@@ -27,7 +27,7 @@ class RandomPR extends Random{
         super(...args);
     }
     print(){
-        const list = this.argv;
+	const [defaultArg = 'default', ...list] = this.argv;
         if (list.length === 0){
             console.log('발표자가 비워있습니다.')
         }else{
