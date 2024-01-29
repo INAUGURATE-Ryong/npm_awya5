@@ -23,11 +23,11 @@ class Random{
 };
 
 class RandomPR extends Random{
-    constructor(...args){
+    constructor(defaultArg = 1, ...args){
         super(...args);
     }
     print(){
-	const [defaultArg = 'default', ...list] = this.argv;
+	const [defaultArg, ...list] = this.argv;
         if (list.length === 0){
             console.log('발표자가 비워있습니다.')
         }else{
